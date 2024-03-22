@@ -13,3 +13,7 @@ To Do
 - Ip address vs custom DNS entry (fritzbox / talk to stephano [torsten])
 - Verify `python3 -m http.server` runs on rasperry pi [torsten]
 - Download git to rasperry pi [torsten]
+
+Next chat
+
+- Mid next week around 12pm lebanon time / 5pm bangkok time
