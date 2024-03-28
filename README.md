@@ -2,9 +2,14 @@
 
 - Provide static information to camp members [George]
 - Download google sheets to offline?
-- Information on how to set up Element Messenger
-  - [iOS](https://apps.apple.com/us/app/element-messenger/id1083446067)
-  - [Android](https://play.google.com/store/apps/details?id=im.vector.app&hl=en&gl=US)
+- Content
+  - Information on how to set up Element Messenger
+    - [iOS](https://apps.apple.com/us/app/element-messenger/id1083446067)
+    - [Android](https://play.google.com/store/apps/details?id=im.vector.app&hl=en&gl=US)
+  - The Lineup
+  - Schedule of the day
+  - Shifts of the day
+  - Recipies
 - Layout / Brand inspiration https://campwhynot.com/
 
 ### To Do once back at Rasperry [Torsten]
