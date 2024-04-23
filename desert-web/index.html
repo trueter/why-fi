@@ -5,27 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intranet Home</title>
     <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        h1 { color: #333; }
-        nav ul { list-style-type: none; }
-        nav ul li { padding: 8px; }
-        a { color: blue; text-decoration: none; }
+        body { max-width: 480px; margin: 0 auto;}
+        header { }
+        body { font-family: Arial, sans-serif; padding: 20px; background-color: #1D1D1D; color: #FADF4F }
+        ul { list-style-type: none; padding-left: 0; }
+        ul li { margin-bottom: 0.6rem; }
+        a { color: #FADF4F; text-decoration: none; }
+        h1 { color: #eee; }
+        section { margin: 2.7rem 0; }
+        footer { margin-top: 5rem; font-size: 0.6rem; color: #eee; display: flex; justify-content: left; align-items: center; }
+        .centered { display: flex; justify-content: center; align-items: center; }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Desert Intranet</h1>
+    <header class="centered">
+        <img src="./assets/logo.png">
     </header>
-    <nav>
+    <section>
+        <h1>Downloads</h1>
         <ul>
-            <li><a href="nexus-setup.html">How to Set Up Nexus Chat on Mobile Devices</a></li>
+            
+            <li><a href="./downloads/WhyNot Participate '24.pdf">Camp Guide</a></li>
+            <li><a href="./downloads/">Participate sheet</a></li>
+            <li><a href="./downloads/">Line Up</a></li>
             <!-- More links can be added here as needed -->
         </ul>
-    </nav>
-    <section>
-        <h2>General Information</h2>
-        <p>This intranet site provides essential information and guides for our team operating in the desert. Here, you can find instructions on setting up your communication tools and other useful resources.</p>
-        <!-- Additional information can be inserted here -->
     </section>
+    <section>
+        <h1>Tools</h1>
+        <ul>
+            <li><a href="http://whynotpi.local:9001/p/2024">Etherpad "Guestbook"</a></li>
+            <li><a href="nexus-setup.html">How to set up nexus chat on mobile devices</a></li>
+        </ul>
+    </section>
+    <footer>
+        <h2>Fuck your burn 🔥</h2>
+    </footer>
+
 </body>
 </html>
