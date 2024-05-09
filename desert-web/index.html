@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Why Not</title>
     <style>
-        body { max-width: 480px; margin: 0 auto; }
-        header { }
-        .whyfi { margin-left: 0.6rem; color: white; }
-        body { font-family: Arial, sans-serif; padding: 20px; background-color: #1D1D1D; color: #ffde17 }
-        ul { list-style-type: none; padding-left: 0; }
-        ul li { margin-bottom: 0.6rem; }
-        a { color: #FADF4F; text-decoration: none; }
-        h1 { color: #eee; }
-        section { margin: 2.7rem 0; }
-        footer { margin-top: 5rem; font-size: 0.6rem; color: #eee; display: flex; justify-content: left; align-items: center; }
-        .centered { display: flex; justify-content: center; align-items: center; }
+        body {
+            max-width: 480px;
+            margin: 0 auto;
+        }
+
+        header {}
+
+        .whyfi {
+            margin-left: 0.6rem;
+            color: white;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #1D1D1D;
+            color: #ffde17
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.6rem;
+        }
+
+        a {
+            color: #FADF4F;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #eee;
+        }
+
+        section {
+            margin: 2.7rem 0;
+        }
+
+        footer {
+            margin-top: 5rem;
+            font-size: 0.6rem;
+            color: #eee;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .disabled {
+            text-decoration: line-through;
+        }
     </style>
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -26,7 +75,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -35,6 +84,7 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 </head>
+
 <body>
     <header class="centered">
         <img width="150" src="./assets/logo.png">
@@ -42,29 +92,36 @@
     <section>
         <h1>Guides</h1>
         <ul>
-            
+
+            <li><a href="./downloads/Final Lineup_WhyNot_24.pdf">Camp Lineup "Final Version"</a></li>
             <li><a href="./downloads/camp_guide_vf2.pdf">Camp Guide</a></li>
-            <li><a href="/chat-setup.html">How to use the Chat</a></li>
+            <li><a class="disabled" href="/chat-setup.html">[🚫] How to use the Chat</a></li>
+            <li><a href="/coffee.html">How to use the Coffee Machine</a></li>
         </ul>
     </section>
-    <section>
+    <!-- <section>
         <h1>Fun</h1>
         <ul>
             <li><a href="http://whynotpi.local:9001/p/2024">Etherpad "Guestbook"</a></li>
         </ul>
-    </section>
-   
+    </section> -->
+
     <section>
         <h1>Downloads</h1>
         <ul>
-            
-            <li><a href="./downloads/240426_1734_WhyNot_Participate.pdf">Participate sheet (as of 26.04.2024 17:34)</a></li>
+
+            <li><a href="./downloads/240426_1734_WhyNot_Participate.pdf">Participate sheet (as of 26.04.2024 17:34)</a>
+            </li>
             <li><a href="./downloads/meal_plans.xlsx">Meal Plans (xlsx)</a></li>
             <li><a href="./downloads/meal_plans.pdf">Meal Plans (pdf)</a></li>
             <li><a href="./downloads/map_FINAL_A4.pdf">Official AfrikaBurn Map</a></li>
+            <li><a href="/downloads/SlimPAR_64_UM_Rev5_WO-1.pdf">Manual - SlimPAR 64</a></li>
+            <li><a href="/downloads/Hurricane1800Flex_UM_Rev8_WO.pdf">Manual - Hurricane Flex</a></li>
             <li><a href="/downloads/Manual_Beamz_BPP225_En.pdf">Manual - Beamz BPP225</a></li>
-            <li><a href="/downloads/51741083-Manual-117197-1.000-eurolite-led-fe-1750-hybrid-laserflower-de_en.pdf">Manual - Laserflower FE 1750 </a></li>
-            <li><a href="/downloads/51860130-Manual-129304-1.400-eurolite-freedmx-ap-wi-fi-interface-de_en.pdf">Manual - Eurolite freeDMX Interface</a></li>
+            <li><a href="/downloads/51741083-Manual-117197-1.000-eurolite-led-fe-1750-hybrid-laserflower-de_en.pdf">Manual
+                    - Laserflower FE 1750 </a></li>
+            <li><a href="/downloads/51860130-Manual-129304-1.400-eurolite-freedmx-ap-wi-fi-interface-de_en.pdf">Manual -
+                    Eurolite freeDMX Interface</a></li>
         </ul>
     </section>
 
@@ -76,13 +133,14 @@
 
             <li><a href="/assets/pharma.gif">Additional pharma order</a></li>
 
-        </li>
+            </li>
         </ul>
     </section>
-   
+
     <footer>
         <h2>Fuck your burn 🔥</h2>
     </footer>
 
 </body>
+
 </html>
